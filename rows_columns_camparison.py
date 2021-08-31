@@ -4,6 +4,9 @@ import numpy as np
 def main():
 	"""This program open the .csv files specified in the command-line with the NumPy library 
 	and compares the number of rows and columns from each file.
+	Example:
+	----------
+	$python rows_columns_comparison.py *.csv
 	"""
 
 	script=sys.argv[0]
