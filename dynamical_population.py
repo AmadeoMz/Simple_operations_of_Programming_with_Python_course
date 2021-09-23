@@ -29,8 +29,6 @@ def iterate(initial_pop, final_t, r):
 	  pop = logistic_map(pop,r)
 	return results
 	
-
-
 def logistic_map(pop, r=1):
 	""" This function takes the population at time t: f(t) 
 	and calculates it  at time t+1: f(t+1), where
@@ -38,7 +36,6 @@ def logistic_map(pop, r=1):
 	"""
 	npop=r*pop*(1-pop)
 	return npop
-
 
 if (__name__=='__main__'):
 	main()
